@@ -1,0 +1,308 @@
+*{
+    box-sizing: border-box;
+}
+.imgdiv {
+    width:100%;
+    height: 100vh;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-masthead.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    font-family: "Roboto", sans-serif;
+}
+#fh1 {
+    width: 100%;
+    text-align: center;
+    font-weight: 900;
+    font-size: 80px;
+    margin: 0px;
+}
+#sh3{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    margin: 5px;
+    font-style: italic;
+}
+#fs1{
+    width: 176px;
+    height: 67px;
+    position: relative;
+    margin-left: 43%;
+    margin-top: 46px;
+    border-radius: 10px;
+    background-color:#1D809F;
+    transition: 0.5s;
+    color: beige;
+    cursor: pointer;
+}
+#fs1:hover{
+    background-color: #196d87;
+}
+.part2 {
+    width: 100%;
+    height: 50vh;
+    padding: 100px;
+}
+#h2{
+    width: 100%;
+    text-align: center;
+    font-weight: 900;
+    font-size: 30px;
+    margin: 0px;
+}
+#fp{
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    margin: 5px;
+    color: rgb(63, 61, 59);
+}
+#fs2{
+    width: 176px;
+    height: 67px;
+    position: relative;
+    margin-left: 43%;
+    margin-top: 46px;
+    border-radius: 10px;
+    background-color:#101212;
+    transition: 0.2s;
+    color: beige;
+    cursor: pointer;
+}
+#fs2:hover{
+    background-color: rgb(81, 77, 73);
+}
+.part3{
+    width: 100%;
+    height: 577px;
+    background-color: #1D809F;
+}
+
+#sp {
+    color: rgb(254, 153, 0);
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+.text{
+    text-align: center;
+    padding: 40px;
+}
+#tp{
+    font-size: 50px;
+    margin: 0px;
+    font-weight: bold;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+.umumi{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+.cont{
+    width: 12%;
+    display: inline-block;
+    margin: 50px;
+
+}
+
+.cont div{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    margin: auto;
+}
+.cont h1,p{
+    text-align: center;
+    color: white;
+    margin: 2px;
+    font-family: "Roboto", sans-serif;
+}
+
+.cont i{
+    color: #1D809F;
+    font-size: 34px;
+    text-align: center;
+    line-height:100px ;
+
+
+}
+.part4 {
+    width:100%;
+    height: 100vh;
+    background-image: url(	https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-callout.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    font-family: "Roboto", sans-serif;
+    padding: 270px;
+}
+#fh2{
+    width: 100%;
+    text-align: center;
+    font-size: 60px;
+    margin: 5px;
+}
+#fs3{
+    width: 176px;
+    height: 67px;
+    position: relative;
+    margin-left: 44%;
+    margin-top: 46px;
+    border-radius: 10px;
+    background-color:#1D809F;
+    transition: 0.5s;
+    color: beige;
+}
+#fs3:hover{
+    background-color: #196d87;
+}
+.part5 {
+    width: 100%;
+    height: 1200px;
+    background-color: aliceblue;
+    padding: 150px 50px;
+}
+#p51{
+    color: hsl(50, 95%, 49%);
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    text-align: center;
+    margin: 5px;
+    display: block;
+}
+#p52 {
+    width: 100%;
+    text-align: center;
+    font-size: 60px;
+    margin: 5px;
+    margin-bottom: 3%;
+    color: rgb(0, 0, 0);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+.imgA{
+    padding-right: 0%;
+    position: absolute;
+}
+.imgA:hover{
+    transition: 0.25s;
+}
+.img4 {
+    width: 49%;
+    height: 350px;
+    display: inline-block;
+    margin: 0px;
+    cursor: pointer;
+    /* position: relative; */
+}
+.img4:hover{
+    scale: 0.8 0.8;
+    transition: 0.25s;
+    opacity: 50%;
+}
+.img4:nth-child(1) {
+    background-image: url(	https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/portfolio-1.jpg); 
+}
+.img4:nth-child(2) {
+    background-image: url(	https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/portfolio-2.jpg);
+}
+.img4:nth-child(3) {
+    background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/portfolio-3.jpg);
+}
+.img4:nth-child(4) {
+    background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/portfolio-4.jpg);
+}
+.img4 h2{
+    text-align: center;
+    color: white;
+}
+.part6 {
+    width: 100%;
+    height: 350px;
+    margin-top: 1%;
+    background-color: #196d87;
+}
+#fs4 {
+    width: 176px;
+    height: 67px;
+    position: relative;
+    margin-left: 35%;
+    margin-top: 10px;
+    border-radius: 10px;
+    transition: 0.5s;
+    background-color:white;
+    color:black;
+    cursor: pointer;
+    display: inline-block;
+}
+#fs4:hover{
+    background-color:rgb(161, 142, 142);
+}
+#fs5 {
+    width: 176px;
+    height: 67px;
+    position: relative;
+    border-radius: 10px;
+    transition: 0.5s;
+    background-color:black;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+}
+#fs5:hover{
+    background-color:rgb(31, 28, 28);
+}
+#h2h{
+    color: white;
+    text-align: center;
+    margin: 0px;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    margin-top: 140px;
+    font-family: "Roboto", sans-serif;
+    font-size: 400;
+}
+.part61{
+    width: 100%;
+    height: 50%;
+}
+.part7 {
+    width: 100%;
+    height: 500px;
+}
+.part8 {
+    width: 100%;
+    height: 250px;
+    
+}
+.icon8{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #3866da;
+  
+}
+.icon8 i{
+    color: #b7bcc8;
+    font-size: 24px;
+    text-align: center;
+    line-height:70px ;
+    display: inline-block;
+
+}
+.part8c {
+    width: 60%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
