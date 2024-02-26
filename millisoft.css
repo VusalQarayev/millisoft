@@ -1,0 +1,30 @@
+.c1{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: aqua;
+}
+.c2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: brown;
+}
+.c3{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: rgb(230, 28, 169);
+}
+.c4{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: rgb(56, 58, 215);
+}
+.c5{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: rgb(129, 205, 85);
+}
