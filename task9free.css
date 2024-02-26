@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+    font-family: "Karla", sans-serif;
+}
+.part1 {
+    width: 1400px;
+    height: 100px;
+    background-color: rgb(17, 17, 45);
+    color: white;
+    position: fixed;
+    z-index: 2;
+}
+.part1 span:first-child {
+    font-size: 35px;
+    position: relative;
+    top: 30px;
+    left: 90px;
+    cursor: pointer;
+}
+.part11 {
+    font-size: 20px;
+    position: relative;
+    margin: 10px;
+    left: 650px;
+    top: 30px;
+    cursor: pointer;
+}
+.part11:hover {
+    color: aqua;
+}
+.part2 {
+    width: 1400px;
+    height: 1000px;
+    background-color: rgb(11, 56, 56);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.part21 {
+    width: 400px;
+    height: 350px;
+}
+.part2 h1{
+    color: white;
+    font-size: 90px;
+    margin-top: 70px;
+}
+.part22 {
+    width: 400px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+.part221:nth-child(1) {
+    width: 120px;
+    height: 3px;
+    background-color: white;
+}
+.part221:nth-child(2) {
+    color: white;
+    font-size: 30px;
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+    bottom: 15px;
+}
+.part221:nth-child(3) {
+    width: 120px;
+    height: 3px;
+    background-color: white;
+}
+.part2 p{
+    font-size: 35px;
+    color: white;
+}
+.part3{
+    width: 1400px;
+    height: 1000px;
+}
+.part3 h1{
+    position: relative;
+    left: 620px;
+    color: #2b1988;
+}
+.part31 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.part311:nth-child(1){
+    width: 90px;
+    height: 3px;
+    background-color: #2b1988;
+}
+.part311:nth-child(2){
+    color: #2b1988;
+    font-size: 30px;
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+    bottom: 15px;
+}
+.part311:nth-child(3){
+    width: 90px;
+    height: 3px;
+    background-color: #2b1988;
+}
+.part32 {
+    width: 1200px;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 90px;
+
+}
+.part321 img{
+    width: 356px;
+    height: 257px;
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 10px;
+}
+.part321 img:hover{
+    opacity: 50%;
+}
+
