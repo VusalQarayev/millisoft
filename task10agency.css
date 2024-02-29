@@ -202,3 +202,324 @@ html {
 .part311img:hover{
     opacity: 25%;
 }
+.part4{
+    width: 100%;
+    height: 1500px;
+    position: relative;
+    top: 900px;
+}
+.part4 h1{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+.part4sts p{
+    font-family: "Roboto Slab", serif;
+    font-style: italic;
+    color: rgb(108, 100, 100);
+    text-align: center;
+    padding-top: 20px;
+}
+
+.part41 {
+    width: 100px;
+    height: 100%;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.part411{
+    width: 150px;
+    height: 150px;
+}
+
+.part411 img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    object-fit:cover;
+    border: 7px;
+    border-style: solid;
+    border-color: #E9ECEF;
+
+}
+.part411img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 7px;
+    border-style: solid;
+    border-color: #E9ECEF;
+    background-color: #d9aa00;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.part411img p{
+    color: white;
+    padding: 24px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+.part412 {
+    margin-top: 0;
+    width: 2px;
+    height: 170px;
+    background-color: #E9ECEF;
+}
+.part42 {
+    width: 350px;
+    line-height: 30px;
+    text-align: right;
+}
+.part42 h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    text-align: end;
+}
+.part42 p {
+    font-family: "Roboto Slab", serif;
+    color: rgb(108, 100, 100);
+}
+
+.part421 {
+    position: relative;
+    bottom: 1310px;
+    left: 390px;
+    text-align: end;
+}
+.part422 {
+    position: relative;
+    bottom: 1250px;
+    left: 960px;
+    text-align: left;
+}
+.part422 h1{
+    text-align: start;
+}
+.part423 {
+    position: relative;
+    bottom: 1160px;
+    left: 390px;
+}
+.part424 {
+    position: relative;
+    bottom: 1070px;
+    left: 960px;
+    text-align: start;
+}
+.part424 h1 {
+    text-align: start;
+}
+.part5 {
+    width: 100%;
+    height: 800px;
+    position: relative;
+    top: 1300px;
+    background-color: #F8F9FA;
+}
+.part51 {
+    width: 100%;
+    height: 30px;
+    padding-top: 20px;
+    text-align: center;
+    margin: auto;
+}
+.part51 h1 {
+    margin: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+}
+.part51 p{
+    font-family: "Roboto Slab", serif;
+    color: rgb(108, 100, 100);
+    font-style: italic;
+}
+.part52 {
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+    position: relative;
+    top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+.part52 img {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #E9ECEF;
+    border-width: 7px;
+}
+.part52 h2 {
+    font-family: "Montserrat", sans-serif;
+    margin-top: 15px;
+}
+.part52 p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Roboto Slab", serif;
+    color: rgb(108, 100, 100);
+}
+.part522i{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.part522i i{
+    background-color: black;
+    font-size: 20px;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.part522i i:hover{
+    background-color: #424649;
+}
+.part522i i:first-child{
+    padding: 8px 7px 7px 8px;
+}
+.part522i i:nth-child(2){
+    padding: 8px 12px 8px 12px;
+}
+.part522i i:nth-child(3){
+    padding: 9px 9px 8px 10px;
+}
+.part53 {
+    margin: auto;
+    width: 45%;
+    text-align: center;
+    font-family: "Roboto Slab", serif;
+    color: rgb(108, 100, 100);
+}
+.part6 {
+    width: 100%;
+    height: 200px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    top: 1330px;
+}
+.part6 img{
+    width: 190px;
+    height: 40px;
+}
+.part7 {
+    width: 100%;
+    height: 700px;
+    background-color: #212529;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/map-image.png);
+    position: relative;
+    top: 1350px;
+    text-align: center;
+}
+.part71{
+    width: 100%;
+    height: 70px;
+}
+.part71 h1{
+    padding-top: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+}
+.part71 p{
+    font-family: "Roboto Slab", serif;
+    color: rgb(108, 100, 100);
+    font-style: italic;
+}
+.part72 {
+    width: 100%;
+    height: 400px;
+}
+.form {
+    display: grid;
+    text-align: center;
+    grid-gap: 50px 10px;
+    margin: 80px 300px;
+    grid-template-areas: "a b"
+                        "c b"
+                        "d b "  ;
+
+}
+.form input:first-child{
+    grid-area: a;
+}
+.form input:nth-child(2){
+    grid-area: c;
+}
+.form input:nth-child(3){
+    grid-area: d;
+}
+.form textarea{
+    grid-area: b;
+    margin: 0;
+}
+input {
+    display: inline-block;
+    width: 500px;
+    height: 70px;
+    
+}
+#but {
+    width: 230px;
+    height: 60px;
+    border-radius: 5px;
+    position: relative;
+    left: 70%;
+    color: white;
+    font-weight: 20px;
+    font-family: "Montserrat", sans-serif;
+    background-color: #d9aa00;
+}
+.part8 {
+    width: 100%;
+    height: 90px;
+    position: relative;
+    top: 1400px;
+    display: flex;
+    justify-content: space-around;
+    font-family: "Montserrat", sans-serif;
+}
+
+.part8i i{
+    background-color: black;
+    font-size: 20px;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.part8i i:hover{
+    background-color: #424649;
+}
+.part8i i:first-child{
+    padding: 8px 7px 7px 8px;
+}
+.part8i i:nth-child(2){
+    padding: 8px 12px 8px 12px;
+}
+.part8i i:nth-child(3){
+    padding: 9px 9px 8px 10px;
+}
+.part8a {
+    
+}
+.part8 a{
+    text-decoration: none;
+}
