@@ -294,13 +294,13 @@ html {
 .part421 {
     position: relative;
     bottom: 1310px;
-    left: 390px;
+    left: 230px;
     text-align: end;
 }
 .part422 {
     position: relative;
     bottom: 1250px;
-    left: 960px;
+    left: 810px;
     text-align: left;
 }
 .part422 h1{
@@ -309,12 +309,12 @@ html {
 .part423 {
     position: relative;
     bottom: 1160px;
-    left: 390px;
+    left: 230px;
 }
 .part424 {
     position: relative;
     bottom: 1070px;
-    left: 960px;
+    left: 810px;
     text-align: start;
 }
 .part424 h1 {
@@ -451,12 +451,20 @@ html {
 .form {
     display: grid;
     text-align: center;
-    grid-gap: 50px 10px;
-    margin: 80px 300px;
-    grid-template-areas: "a b"
-                        "c b"
-                        "d b "  ;
+    grid-gap: 30px 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 30px;
+    grid-template-areas: "a b b"
+                        "c b b"
+                        "d b b"  ;
 
+}
+.form input{
+    border-radius: 10px;
+}
+.form textarea{
+    border-radius: 10px;
 }
 .form input:first-child{
     grid-area: a;
@@ -483,6 +491,7 @@ input {
     border-radius: 5px;
     position: relative;
     left: 70%;
+    margin: auto;
     color: white;
     font-weight: 20px;
     font-family: "Montserrat", sans-serif;
