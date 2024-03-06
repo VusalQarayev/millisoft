@@ -77,10 +77,14 @@
     text-decoration: none;
     color: black;
 }
+.head23{
+    display: flex;
+}
 .head23 i{
     background-color: #fff;
     margin: 5px;
     padding: 7px;
+
 }
 .head23 i:hover {
     background-color: aqua;
