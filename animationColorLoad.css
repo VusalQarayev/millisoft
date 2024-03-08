@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+}
+.maind {
+    width: 100%;
+    height: 800px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.d1 {
+    width: 150px; 
+    height: 150px;
+    background-color: rgb(59, 53, 53); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .p1 {
+    color: rgb(238, 255, 4);
+    letter-spacing: 5px;
+  }
+   .d1 {
+    border-width: 10px;
+    /* border-style: solid;
+    border-color: aqua;
+    border-top-color: black; */
+    border: 2px solid transparent;
+    border-width: 7px;
+    animation-name: test;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: absolute;
+    border-radius: 10px;
+    
+
+  }
+  
+  /* @keyframes test {
+    1% { 
+      border-top-color: rgb(255, 0, 102);
+      border-right-color: rgb(0, 0, 164);
+    }
+    25% {
+      border-bottom-color: rgb(186, 227, 38);
+      border-left-color: rgb(97, 36, 154);
+    }
+    50% { 
+      border-bottom-color: rgb(31, 180, 73);
+      border-left-color: aqua;
+    }
+    75% {
+      border-top-color: rgb(82, 14, 167);
+    }
+    100% { 
+      border-top-color: rgb(179, 224, 224);
+      border-right-color: rgb(235, 0, 192);
+    }
+  } */
+  @keyframes test {
+    0% {
+      border-top-color: aqua;
+      border-right-color: transparent;
+      border-bottom-color: transparent;
+      border-left-color: transparent;
+    }
+    15% {
+      border-top-color: rgb(7, 116, 116);
+      border-right-color: blue;
+      border-bottom-color: transparent;
+      border-left-color: transparent;
+    }
+    35% {
+      border-top-color: rgb(5, 48, 48);
+      border-right-color: rgb(55, 55, 140);
+      border-bottom-color: rgb(255, 0, 0);
+      border-left-color: transparent;
+    }
+    45% {
+      border-top-color: rgb(171, 210, 210);
+      border-right-color: rgb(2, 2, 34);
+      border-bottom-color: rgb(136, 61, 61);
+      border-left-color: rgb(196, 255, 1);
+    }
+    55% {
+      border-top-color: transparent;
+      border-right-color: rgb(121, 121, 229);
+      border-bottom-color: rgb(59, 59, 78);
+      border-left-color: rgb(97, 127, 13);
+    }
+    65% {
+        border-top-color: rgb(195, 129, 199);
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+      }
+      75% {
+        border-top-color: rgb(255, 0, 230);
+        border-right-color: rgb(34, 34, 73);
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+      }
+      85% {
+        border-top-color: rgb(110, 173, 173);
+        border-right-color: rgb(5, 5, 41);
+        border-bottom-color: rgb(227, 24, 210);
+        border-left-color: transparent;
+      }
+      95% {
+        border-top-color: rgb(31, 152, 49);
+        border-right-color: rgb(28, 115, 138);
+        border-bottom-color: rgb(56, 217, 223);
+        border-left-color: rgb(136, 108, 96);
+      }
+      100% {
+        border-top-color: transparent;
+        border-right-color: rgb(181, 68, 113);
+        border-bottom-color: rgb(101, 69, 61);
+        border-left-color: rgb(42, 94, 94);
+      }
+  }
