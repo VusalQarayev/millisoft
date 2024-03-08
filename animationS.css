@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+}
+.d1 {
+    width: 100%;
+    height: 700px;
+    background-color: #83C9ED;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.d1 i{
+    font-size: 300px;
+    animation: test;
+    z-index: 1;
+    
+}
+
+.ani1 {
+    width: 100px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+    left: -260px;
+    top: -100px;
+
+  }
+
+  .ani1::after,.ani1::before {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  background-color: white;
+  bottom: 10px;
+  opacity: 0.7;
+  animation: steam 2s reverse infinite;
+}
+
+.ani1::after {
+  top: -20px;
+  left: 20px;
+  width: 15px;
+  height: 15px;
+  animation-delay: 0.2s;
+}
+
+.ani1::before {
+  top: -30px;
+  right: 15px;
+  width: 70px;
+  height: 70px;
+}
+
+@keyframes steam {
+  from { transform: translateY(-20px); opacity: 0; }
+  to { transform: translateY(100px); opacity: 1; }
+}
+.ani2 {
+    width: 100px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+    left: -300px;
+    top: -50px;
+    opacity: 15%;
+  }
+
+  .ani2::after,.ani2::before {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  background-color: white;
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  opacity: 0.7;
+  animation: steam 2.2s reverse infinite;
+}
+
+.ani2::after {
+  top: -20px;
+  left: 20px;
+  width: 30px;
+  height: 35px;
+  animation-delay: 0.2s;
+}
+
+.ani2::before {
+  top: -90px; 
+  right: 35px;
+  width: 70px;
+  height: 70px;
+  opacity: 70%;
+}
