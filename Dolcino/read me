@@ -1,0 +1,26 @@
+# 🍰 Dolcino – Dessert & Cafe Website
+
+**Dolcino** is a visually appealing, static website project designed for a dessert or cafe brand. It is built using pure HTML and CSS, showcasing a clean, responsive layout suitable for portfolio or client demonstrations.
+
+---
+
+## 📌 Project Overview
+
+The website includes:
+
+- A modern landing page
+- About and Menu sections
+- Gallery and Testimonials
+- Contact form (front-end only)
+- Responsive design with mobile-friendly layout
+
+---
+
+## 🛠️ Technologies Used
+
+| Technology     | Description                      |
+|----------------|----------------------------------|
+| HTML5          | Structure and semantic markup    |
+| CSS3           | Styling and responsive layout    |
+| Google Fonts   | Custom font styling              |
+| Font Awesome   | Icons for features and social    |
