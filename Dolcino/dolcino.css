@@ -1,0 +1,197 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.head {
+    width: 100%;
+    height: 850px;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-image: url(https://dolcino.qodeinteractive.com/wp-content/uploads/2018/10/h1-slide-1.jpg);
+    /* background-image: url(https://dolcino.qodeinteractive.com/wp-content/uploads/2018/11/h1-parallax-1-1.jpg); */
+}
+.headiv {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.headiv img {
+    width: 38px;
+    height: 60px;
+    margin-right: 90px;
+}
+.headiv1 a{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    letter-spacing: 3px;
+    color: black;
+    font-family: Montserrat,sans-serif;
+}
+.headiv1 i{
+    color: #C3A15F;
+    margin-left: 20px;
+    font-size: 24px;
+}
+.headiv1 a:hover{
+    text-decoration: underline;
+    text-decoration-color: #C3A15F;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 5px;
+    color: #C3A15F;
+    transition-delay: 0.04s;
+    /* font-family: "Great Vibes", cursive; */
+}
+.headiv2 {
+    width: 50%;
+    margin-left: 45%;
+    text-align: center;
+    margin-top: 100px;
+}
+.headiv2 h1{
+    font-family: "Great Vibes", cursive;
+    color: #C3A15F;
+    font-size: 60px;
+    font-weight: 300;
+}
+.headiv2 h2{
+    font-family: Montserrat,sans-serif;
+    font-size: 96px;
+    font-weight: 600;
+    letter-spacing: 10px;
+}
+.headiv2 p{
+    font-family: "Cormorant", serif;
+    font-style: italic;
+    font-size: 26px;
+}
+.headbut button {
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+    font-family: Montserrat,sans-serif;
+    cursor: pointer;
+    margin-top: 40px;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+.but1 {
+    color: white;
+    background-color: black;
+    border: none;
+}
+.but1:hover {
+    background-color: #C3A15F;
+    transition: 0.5s;
+}
+.but2 {
+    color: #C3A15F;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #C3A15F;
+}
+.but2:hover{
+    color: white;
+    background-color: #C3A15F;
+    transition: 0.5s;
+}
+.sec1 {
+    width: 100%;
+    height: 1000px;
+    /* z-index: -1;
+    position: sticky; */
+    background-image: url(https://dolcino.qodeinteractive.com/wp-content/uploads/2018/11/h1-parallax-2-1.jpg);
+}
+.sdiv1 {
+    width: 100%;
+    height: 60%;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-image: url(https://dolcino.qodeinteractive.com/wp-content/uploads/2018/11/h1-parallax-1-1.jpg);
+}
+.sdiv1 h1{
+    font-family: "Great Vibes", cursive;
+    color: #C3A15F;
+    font-size: 50px;
+    font-weight: 300;
+}
+.sdiv1 h2{
+    font-family: Montserrat,sans-serif;
+    font-size: 56px;
+    font-weight: 600;
+    letter-spacing: 10px;
+}
+.sdiv1 p{
+    font-family: "Cormorant", serif;
+    text-align: center;
+    padding-left: 25%;
+    line-height: 37px;
+    padding-right: 25%;
+    font-style: italic;
+    font-size: 26px;
+}
+.sdiv2 {
+    width: 100%;
+    height: 40%;
+    background-position: center;
+    font-family: "Great Vibes", cursive;
+    color: #C3A15F;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.sdiv2 {
+    font-size: 90px;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+}
+.sec2 {
+    width: 100%;
+    height: 1000px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.sdiv3{
+    width: 100%;
+    height: 300px;
+}
+.sdiv3 h1{
+    font-family: "Great Vibes", cursive;
+    color: #C3A15F;
+    font-size: 50px;
+    font-weight: 300;
+}
+.sdiv3 h2{
+    font-family: Montserrat,sans-serif;
+    font-size: 56px;
+    font-weight: 600;
+    letter-spacing: 10px;
+}
+.sdiv3 p{
+    font-family: "Cormorant", serif;
+    text-align: center;
+    padding-left: 25%;
+    line-height: 37px;
+    padding-right: 25%;
+    font-style: italic;
+    font-size: 26px;
+}
+.sdiv4 {
+    width: 80%;
+    height: 500px;
+}

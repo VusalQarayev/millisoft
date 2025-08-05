@@ -1,0 +1,582 @@
+*{
+    box-sizing: border-box !important;
+    /* margin: 0;
+    padding: 0; */
+}
+.first {
+    width: 100%;
+    height: 70px;
+    background-color: #f2f2f2;
+    position: fixed;
+    text-align: center;
+    top: 0px;
+    z-index: 2;
+}
+.second {
+    width: 100px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+#astart{
+    position:absolute;
+    top:17px;left:10px;
+}
+#a6{
+    text-align: center;
+    position: relative;
+    bottom: 40px;
+    left: 800px;
+    /* left: 590px; noutbuk */
+    
+}
+#a1{
+    margin:5px;
+}
+.part2 {
+    width: 100%;
+    height: 700px;
+    margin-top: 80px;
+}
+.part21 {
+    width: 100%;
+    height: 50px;
+}
+.part21 h1{
+    color: #FE7EC9;
+    font-family: "Oswald", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+.part22 {
+    width: 50%;
+    height: 300px;
+    text-align: center;
+    padding-top: 90px;
+    padding-left: 120px;
+    padding-right: 120px;
+  
+}
+.part22 h1 {
+    font-family: "Oswald", sans-serif;
+    font-size: 72px;
+    color: #488DF4;
+    font-weight: 700;
+}
+.part22 h2 {
+    font-family: "Oswald", sans-serif;
+    font-size: 30px;
+    color: #42434B;
+}
+.part23 {
+    width: 570px;
+    height: 670px;
+    background-image: url(https://images03.nicepage.com/c461c07a441a5d220e8feb1a/1928ac4fdeea5ee28a624ce0/firstdayofschoolbacktoschoolphotoideasphotographyhowtotakegreatpictures13.jpg);
+    position: relative;
+
+}
+.part2main {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+
+}
+.part3 {
+    margin-top: 80px;
+    width: 100%;
+    height: 340px;
+    display: flex;
+
+    color: white;
+}
+.part3d {
+    width: 25%;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Oswald", sans-serif;
+
+}
+.part3d i{
+    font-size: 60px;
+}
+.part31 {
+    background-color: #38C4C1;
+}
+.part32 {
+    background-color: #FECA02;
+}
+.part33 {
+    background-color: #FE7EC9;
+}
+.part34 {
+    background-color: #488DF4;
+}
+.part4 {
+    width: 100%;
+    height: 500px;
+    /* margin-top: 30px; */
+    text-align: center;
+    background-color: #F2F2F2;
+    padding-top: 100px;
+}
+.part4 h1{
+    font-family: "Oswald", sans-serif;
+    color: #488DF4;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 60px;
+}
+.part4 p{
+    color: #42434b;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 35px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.part4div {
+    width: 65px;
+    height: 6px;
+    background-color: black;
+    display: inline-block;
+}
+.part5 {
+    width: 100%;
+    height: 800px;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+}
+.part5 h2{
+    color: #808080;
+    font-weight: lighter;
+    font-size: 24px;
+    margin-top: 30px;
+}
+.part5 h1 {
+    color: #424348;
+    font-weight: 700;
+    font-size: 48px;
+    /* margin-top: 0px; */
+}
+.part51 {
+    width: 70%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.part511 {
+    width: 50%;
+    height: 700px;
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-style: solid;
+    border-color: white;
+    border-width: 10px;
+    background-image: url(https://media.istockphoto.com/id/1201545332/photo/wow-look-advertise-here-portrait-of-amazed-cute-little-boy-with-curly-hair-pointing-to-empty.jpg?s=612x612&w=0&k=20&c=EFYVjNlP5_MkFSp2J7wYRTmJzZGUQQgeJpFnlHaqm0Q=);
+}
+.part512 {
+    width: 50%;
+    height: 700px;
+    background-color: red;
+    /* position: relative; */
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.part512d {
+    width: 50%;
+    height: 50%;
+    display: inline-block;
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-style: solid;
+    border-color: white;
+    border-width: 10px;
+    /* background-position: 50% 50%; */
+    /* position: absolute; */
+}
+.part512d h1{
+    color: #808080;
+    font-weight: lighter;
+    font-size: 24px;
+}
+.part512d1{
+    background-color: #EBFCFC;
+    text-align: right;
+    line-height: 30px;
+    padding: 20px 20px 10px 30px;
+}
+.fa-solid {
+    font-size: 50px;
+    background-color: #38C8D2;
+    color: white;
+    border-radius: 50%;
+    padding: 10px;
+}
+.fa-regular {
+        font-size: 50px;
+        background-color: #FE7EC9;
+        color: white;
+        border-radius: 50%;
+        padding: 10px;
+}
+.part512d1 p{
+    text-align: left;
+    color: #42434B;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-style: italic;
+}
+.part512d1 a{
+    color: #38C8D2;
+    text-decoration: none;
+}
+.part512d2{
+    background-color: #FFF2FA;
+    text-align: right;
+    line-height: 30px;
+    padding: 20px 20px 10px 30px;
+}
+.part512d2 p{
+    text-align: left;
+    color: #42434B;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-style: italic;
+}
+.part512d2 a{
+    color:#FE7EC9;
+    text-decoration: none;
+}
+.part512d3{
+    background-image: url(	https://images03.nicepage.com/c461c07a441a5d220e8feb1a/d3bfc71acd69527589c31f1b/d.jpg);
+}
+.part512d4 {
+    background-image: url(	https://images03.nicepage.com/c461c07a441a5d220e8feb1a/bf90812ae3b351c4942c0350/dfv.jpg);
+}
+.part6 {
+    width: 100%;
+    height: 600px;
+    background-color: #FECA02;
+    margin-top: 120px;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+}
+.part6 h2 {
+    padding-top: 40px;
+    font-weight: 200;
+    color: white;
+}
+.part6 h1{
+    color: white;
+}
+.part6div {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.part6d {
+    width: 250px;
+    height: 300px;
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.fa-solid {
+    font-size: 50px;
+    color: white;
+    border-radius: 50%;
+    padding: 10px;
+    margin-top: 20px;
+}
+.part6d p{
+    color: #42434B;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    line-height: 30px;
+    padding: 10px 15px 10px 15px;
+}
+.part61 h1{
+    font-size: 20px;
+    color: #FE7EC9;
+}
+.part62 h1{
+    font-size: 20px;
+    color: #488DF4;
+}
+.part63 h1{
+    font-size: 20px;
+    color: #38C4C1;
+}
+.part64 h1{
+    font-size: 20px;
+    color: #FECA02;
+}
+.part7 {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
+.part7 h1{
+    margin-top: 30px;
+    font-family: "Oswald", sans-serif;
+    font-size: 50px;
+    color: #424348;
+}
+.part71 {
+    width: 50%;
+    height: 200px;
+    margin: auto;
+    display: flex;
+}
+.part71 p{
+    padding: 9px;
+    text-align: left;
+    line-height: 30px;
+    color: #42434B;
+    font-family: "Open Sans", sans-serif;
+}
+.part8 {
+    width: 100%;
+    height: 500px;
+    background-color: #38C4C1;
+    margin-top: 120px;
+    position: relative;
+}
+.part81{
+    width: 100%;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 40px;
+}
+.part8d {
+    width: 400px;
+    height: 400px;
+    margin-top: 80px;
+    background-color: white;
+    margin: 5px;
+}
+.part811 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://images03.nicepage.com/c461c07a441a5d220e8feb1a/ca781a3c8fdc51668d3016a3/c4f5abfbf6e1318f547819911d40eb34.jpg);
+}
+
+.part812 h1 {
+    font-family: "Oswald", sans-serif;
+    font-size: 35px;
+    color: #424348;
+    margin-top: 0;
+}
+.part812 p {
+    line-height: 30px;
+    color: #42434B;
+    font-family: "Open Sans", sans-serif;
+    text-align: left;
+    line-height: 30px;
+    padding: 20px;
+}
+.part813 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://images03.nicepage.com/c461c07a441a5d220e8feb1a/45abe08f6d4a5feb8226c2d3/bf76ae7aee2f9e595a6c9f6bdefc52a2.jpg);
+}
+/* About us 9cu hisse */
+.part9 {
+    width: 100%;
+    height: 800px;
+    text-align: center;
+}
+.part9 h2{
+    color: #42434B;
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    margin-top: 50px;
+}
+.part9 h3{
+    font-family: "Oswald", sans-serif;
+    margin-top: 0;
+    font-size: 35px;
+    color: #424348;
+}
+.part9div {
+    width: 70%;
+    height: 700px;
+    display: flex;
+    margin: auto;
+
+}
+.part91 {
+    text-align: right;
+}
+.part92 {
+    width: 500px;
+    height: 520px;
+    object-fit: cover;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 65px;
+}
+.part92 img {
+    width: 100%;
+    height: 100%;
+    
+}
+.part93 {
+    text-align: left;
+}
+.partp p,h1{
+    margin-top: 58px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.partp p {
+    color: #42434B;
+    font-family: "Open Sans", sans-serif;
+    font-style: italic;
+    font-size: 18px;
+
+}
+.partp h1 {
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    color: #424348;
+}
+.part10 {
+    width: 100%;
+    height: 900px;
+    background-color: #38C4C1;
+    text-align: center;
+
+}
+.part10 h1{
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    color: white;
+    padding-top: 80px;
+}
+.part10 h2{
+    font-family: "Oswald", sans-serif;
+    font-size: 35px;
+    color: white;
+}
+.part10m{
+    width: 60%;
+    height: 700px;
+    display: flex;
+    text-align: left;
+    margin: auto;
+    margin-bottom: 0;
+}
+.part10d {
+    width: 600px;
+    height: 600px;
+}
+.part101 {
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url(https://images03.nicepage.com/c461c07a441a5d220e8feb1a/639687807b39575582358f6f/bf46f3252edb2d29641ccb332f377bc9.jpg);
+}
+.part102 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+
+}
+.part102 h3{
+    font-family: "Oswald", sans-serif;
+}
+.part102 p{
+    font-family: "Open Sans", sans-serif;
+    line-height: 30px;
+}
+.part102 a{
+    font-family: "Open Sans", sans-serif;
+    color: #FE7EC9;
+    text-decoration: none;
+}
+.part11 {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+}
+.fat{
+    border-style: solid;
+    border-color: white;
+}
+.fa-location-dot {
+    padding-left: 15px;
+    padding-right: 15px;
+    border-style: solid;
+    color: white;
+    background-color: #FE7EC9;
+}
+.fa-mobile-screen-button {
+    padding-left: 18px;
+    padding-right: 18px;
+    color: white;
+    background-color: #FECA02;
+}
+.part12 {
+    width: 100%;
+    height: 300px;
+    background-color: #FE7EC9;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+}
+.part12d {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+.fa-brands {
+    margin: 5px;
+}
+.last {
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    background-color: #333333;
+    color: white;
+}
+.last a{
+    color: #FEB8E1;
+}

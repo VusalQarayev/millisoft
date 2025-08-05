@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>TEST</title>
+    <link rel="shortcut icon" type="image/x-icon" href="data:image/png;base64,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">
+</head>
+
+<body>
+   <h1>Physical Text Formatting</h1>
+    <strong>This is bold text</strong>
+    <br><br>
+    <i>This is italic text</i>
+    <br><br>
+    <u>This text is underlined</u>
+    <br><br>
+    <a href="https://millisoft.az/" target="_blank">click to go another page</a>
+    <br><br>
+    <small>This is small text</small>
+    <br><br>
+    <span>This is normal text</span>
+    <p>
+     <mark>This is marked text</mark>
+    </p>
+    <p>H<sub>2</sub>O is the chemical symbol of water</p>
+    <p>5 <sup>2</sup>is equal 25</p>
+    <p>Fractions can be made with a mix of sup and sub <sup>1</sup><sub>2</sub></p>
+    
+    <table border="1" width="30%">
+        <thead>
+            <tr>
+                <th>N</th>
+                <th>Ad</th>
+                <th>Soyad</th>
+                <th>Ata adı</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+
+        </tbody>
+    </table>
+
+    <br><br>
+
+
+    <table border="2" width="20%">
+        <thead>
+            <tr>
+                <th rowspan="2">N</th>
+                <th colspan="3">İşçi</th>
+            </tr>
+            <tr>
+                <th>Ad</th>
+                <th>Soyad</th>
+                <th>Ata adı</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td></td>
+                <td></td>
+                <td></td>
+
+            </tr>
+            <tr>
+                <td>3</td>
+                <td></td>
+                <td></td>
+                <td></td>
+
+            </tr>
+            <tr>
+                <td>4</td>
+                <td></td>
+                <td></td>
+                <td></td>
+
+            </tr>
+        </tbody>
+    </table>
+
+    <br><br>
+
+    <table border="2" width="30%">
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Full Name</th>
+                <th>Position</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>tom</td>
+                <td>hr</td>
+                <td>2500</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>kate</td>
+                <td>sales</td>
+                <td>2900</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>rose</td>
+                <td>commerce</td>
+                <td>3000</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>bruce</td>
+                <td>crm</td>
+                <td>2900</td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <center> <b>Total Expense:</b></center>
+                </td>
+                <td><b>11100</b></td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+    <table border="2">
+        <thead>
+            <tr>
+                <th colspan="2">Language and Framework</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Phyton</td>
+                <td>Django</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Javascript</td>
+                <td>React.js</td>
+            </tr>
+            <tr>
+                <td>Vue.js</td>
+            </tr>
+            <tr>
+                <td>Ruby</td>
+                <td>Ruby on Rails</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br><br>
+    <table border="1" width="30%">
+        <thead>
+            <tr>
+                <th rowspan="2">Station</th>
+                <th colspan="2">Temprature</th>
+                <th rowspan="2">Humidity</th>
+                <th rowspan="2">Weather</th>
+            </tr>
+            <tr>
+                <th>Max</th>
+                <th>Min</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>USA</td>
+                <td>24</td>
+                <td>19</td>
+                <td>60%</td>
+                <td>cloudy</td>
+            </tr>
+            <tr>
+                <td>Germany</td>
+                <td>5</td>
+                <td>-1</td>
+                <td>70%</td>
+                <td>rainy</td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+    <table border="1" width="35%">
+        <thead>
+            <tr>
+                <th colspan="6"> <center>Athletics day time table</center> </th>
+            </tr>
+            <tr>
+                <th>Area</th>
+                <th>10am-11am</th>
+                <th>11am-12pm</th>
+                <th>12pm-1pm</th>
+                <th>1pm-2pm</th>
+                <th>2pm-3pm</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2"> Track</td>
+                <td>400m</td>
+                <td>200m</td>
+                <td rowspan="3">Lunch</td>
+                <td>800m</td>
+                <td>100m</td>
+            </tr>
+            <tr>
+                <td>Hurdles</td>
+                <td>1500m</td>
+                <td>Free</td>
+                <td>80m</td>
+            </tr>
+            <tr>
+                <td>Field</td>
+                <td>Discus</td>
+                <td>Javelin</td>
+                <td>Shot put</td>
+                <td>Hammer throw</td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+    <table border="2">
+        <thead>
+            <tr>
+                <th></th>
+                <th></th>
+                <th colspan="3">Morning</th>
+                <th>lunch</th>
+                <th colspan="4">afternoon</th>
+                <th colspan="3">evening</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>9-10am</td>
+                <td>10-11am</td>
+                <td>11-12pm</td>
+                <td>1-2pm</td>
+                <td>2-3pm</td>
+                <td>3-4pm</td>
+                <td>4-5pm</td>
+                <td>5-6pm</td>
+                <td>6-7pm</td>
+                <td>7-8pm</td>
+                <td>8-9pm</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Work</td>
+                <td>Monday</td>
+                <td colspan="3">Developmen meeting</td>
+                <td></td>
+                <td colspan="3">client meeting</td>
+                <td>commute</td>
+                <td colspan="3">Fee</td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td colspan="3">in Office</td>
+                <td></td>
+                <td colspan="7">in Office</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Lecture</td>
+                <td>Wednesday</td>
+                <td colspan="3">CSC205</td>
+                <td></td>
+                <td colspan="7">preparation</td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td colspan="3"> MAM200</td>
+                <td></td>
+                <td colspan="3">Tutorials for MAM200</td>
+                <td colspan="4">free</td>
+            </tr>
+            <tr>
+                <td>Research</td>
+                <td>Friday</td>
+                <td colspan="3"> Research</td>
+                <td></td>
+                <td colspan="7">Research</td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+    <table border="2" width="40%">
+        <thead>
+            <tr>
+                <th rowspan="2">N</th>
+                <th colspan="7"><center>İmtahan</center></th>
+            </tr>
+            <tr>
+                <td colspan="3">Tələbə</td>
+                <td colspan="3">Müəllim</td>
+                <td>Fənn</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ad</td>
+                <td>Soyad</td>
+                <td>Qrup</td>
+                <td>Ad</td>
+                <td>Soyad</td>
+                <td>Elmi dərəcə</td>
+                <td>Ad</td>
+                <td>Kredit</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+    <table border="2" width="30%">
+        <thead>
+            <tr>
+                <th rowspan="4">N</th>
+                <th colspan="11">A</th>
+            </tr>
+            <tr>
+                <th colspan="6">B</th>
+                <th rowspan="3", colspan="2">G</th>
+                <th colspan="3">K</th>
+            </tr>
+            <tr>
+                <th rowspan="2", colspan="2">C</th>
+                <th rowspan="2">D</th>
+                <th colspan="2">E</th>
+                <th rowspan="2">F</th>
+                <th colspan="2">H</th>
+                <th rowspan="2">J</th>
+            </tr>
+            <tr>
+                <th>L</th>
+                <th>S</th>
+                <th>N</th>
+                <th>M</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+    <table border="2">
+        <thead>
+            <tr>
+                <th colspan="6">Time Table</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="7"><b>Hours</b></td>
+            </tr>
+            <tr>
+                <td>Mon</td>
+                <td>Tue</td>
+                <td>Wed</td>
+                <td>Thu</td>
+                <td>Fri</td>
+            </tr>
+            <tr>
+                <td>Science</td>
+                <td>Maths</td>
+                <td>Science</td>
+                <td>Maths</td>
+                <td>Arts</td>
+            </tr>           <tr>
+                <td>Social</td>
+                <td>History</td>
+                <td>English</td>
+                <td>Social</td>
+                <td>Sports</td>
+            </tr>
+            <tr>
+                <th colspan="5">LUNCH</th>
+            </tr>
+            <tr>
+                <th>Science</th>
+                <th>Maths</th>
+                <th>Science</th>
+                <th>Maths</th>
+                <th rowspan="2">Project</th>
+            </tr>
+            <tr>
+                <th>Social</th>
+                <th>History</th>
+                <th>English</th>
+                <th>Social</th>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+    <p>List of Indian States with their capital</p>
+    <ol>
+        <li>Dehli 
+            <ul>
+                <li>New Dehli</li>
+            </ul>
+        </li>
+        <li>Haryana 
+            <ul>
+                <li>Chandigarh</li>
+            </ul>
+        </li>
+        <li>Gujarat 
+            <ul>
+                <li>Gandhinagar</li>
+            </ul>
+        </li>
+        <li>Rajasthan 
+            <ul>
+                <li>Jaipur</li>
+            </ul>
+        </li>
+        <li>Maharashtra 
+            <ul>
+                <li>Mumbai</li>
+            </ul>
+        </li>
+        <li>Uttarpradesh 
+            <ul>
+                <li>Lucknow</li>
+            </ul>
+        </li>
+    </ol>
+
+    <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript
+            <ul>
+                <li>VueJS</li>
+                <li>ReactJS</li>
+                <li>AngularJS</li>
+            </ul>
+        </li>
+        <li>Git</li>
+    </ol>
+    <ol>
+        <li>Fruits:
+            <ol>
+                <li>Mango</li>
+                <li>Orange</li>
+            </ol>
+        </li>
+        <li>Vegetables
+            <ol>
+                <li>Cabbage</li>
+                <li>Capsicum
+                    <ol>
+                        <li>Green Capsicum</li>
+                        <li>Yellow Capsicum</li>
+                        <li>Red Capsicum</li>
+                    </ol>
+                </li>
+            </ol>
+        </li>
+    </ol>
+    <ul>
+        <li>ADNSU
+            <ul type="circle">
+                <li>ITIF
+                    <ul>
+                        <li>Kompüter mühəndisliyi</li>
+                        <li>Elektronika</li>
+                    </ul>
+                </li>
+                <li>KTF</li>
+                <li>QNMF</li>
+            </ul>
+        </li>
+        <li>BMU
+            <ul type="circle">
+                <li>A</li>
+                <li>B</li>
+            </ul>
+        </li>
+        <li>UNEC
+            <ul type="circle">
+                <li>C
+                    <ul>
+                        <li>E</li>
+                        <li>F</li>
+                    </ul>
+                </li>
+                <li>D</li>
+            </ul>
+        </li>
+    </ul>
+<br><br>
+<ol type="I">
+    <li>Backgound Skills
+        <ol>
+            <li>Unix Commands</li>
+            <li>Vim Test Editors</li>
+        </ol>
+    </li>
+    <li>HTML
+        <ol>
+            <li>Minimal page</li>
+            <li>Headings</li>
+            <li>Elements</li>
+            <li>List
+                <ol type="a">
+                    <li>Unordered</li>
+                    <li>Ordered</li>
+                    <li>Nested</li>
+                </ol>
+            </li>
+            <li>Links
+                <ol type="a">
+                    <li>Absolute</li>
+                    <li>Relative</li>
+                </ol>
+            </li>
+            <li>İmages</li>
+        </ol>
+    </li>
+    <li>CSS
+        <ol>
+            <li>Basic Selectors
+                <ol type="a">
+                    <li>Element</li>
+                    <li>Class</li>
+                    <li>İD</li>
+                    <li>Group</li>
+                </ol>
+            </li>
+            <li>Box Model</li>
+            <li>The DOM</li>
+        </ol>
+    </li>
+    <li>Programming
+        <ol>
+            <li>Python</li>
+            <li>JavaScript</li>
+        </ol>
+    </li>
+    <li>Databae
+        <ol>
+            <li>Flat File</li>
+            <li>Relational</li>
+        </ol>
+    </li>
+</ol>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+# 🎨  Agency Website Clone
+
+This project is a responsive, multi-section HTML & CSS website designed as a clone of the **StartBootstrap Agency** template. It showcases modern web design practices including layout structuring, sectioning, responsive UI, and visual interaction using only HTML and CSS.
+
+## 📌 Project Overview
+
+The website includes the following key sections:
+
+- ✅ **Header** with navigation and hero banner
+- 🛍️ **Services** section with icon highlights
+- 🖼️ **Portfolio** with hover effects
+- 🕰️ **About** timeline of company history
+- 🧑‍💼 **Team** member cards with social links
+- 🏢 **Client logos** section
+- ✉️ **Contact Us** form (HTML only, no backend)
+- 📄 **Footer** with social links and legal info
+
+> ✨ **Responsive Design:** The layout adapts smoothly to various screen sizes using `flexbox` and modern CSS practices.
+
+## 🛠️ Technologies Used
+
+| Technology | Purpose |
+|------------|---------|
+| `HTML5`    | Page structure and content |
+| `CSS3`     | Styling and responsive design |
+| `Font Awesome` | Icons for services and social links |
+| `Google Fonts` | "Montserrat" and "Roboto Slab" for elegant typography |
+
+## 📁 Files Included
+
+- `task10agency.html` — Main HTML structure of the site
+- `task10agency.css` — Styling for all sections and responsiveness
+
+## 🚀 How to Run
+
+1. Clone or download this repository.
+2. Make sure both `task10agency.html` and `task10agency.css` are in the same directory.
+3. Open `task10agency.html` in your browser.
+
+```bash
+git clone https://github.com/VusalQarayev/millisoft.git
+cd millisoft
+open task10agency.html
