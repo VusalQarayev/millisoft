@@ -1,0 +1,29 @@
+# 🎞️ CSS Animations – Millisoft Project Folder
+
+This folder contains a collection of **CSS animation exercises** created to demonstrate different types of visual effects using only HTML and CSS. These are part of the broader Millisoft front-end learning and practice repository.
+
+---
+
+## 📌 What's Included
+
+Inside this folder, you'll find mini-projects and components that showcase:
+
+- 🔁 Smooth transitions
+- ✨ Hover effects (zoom, rotate, scale)
+- 🔄 Keyframe animations (slide, bounce, fade-in/out)
+- 💡 Button and card animations
+- 📱 Responsive interactive UI elements
+
+Each file is standalone and intended for learning, experimentation, or showcasing animation techniques without using JavaScript or external libraries.
+
+---
+
+## 🛠️ Technologies Used
+
+| Technology | Purpose                        |
+|------------|--------------------------------|
+| HTML5      | Structure                      |
+| CSS3       | Styling and animations         |
+| Flexbox    | Layout and positioning         |
+| Keyframes  | Custom animations              |
+| Transitions & Transforms | Smooth visual effects |
