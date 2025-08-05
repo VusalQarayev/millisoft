@@ -1,0 +1,27 @@
+🌱 EcoHarvest – Smart Agriculture Management System
+
+**EcoHarvest** is a user-friendly and responsive static website designed to promote a smart agriculture and crop monitoring solution. Built with pure HTML and CSS, this project showcases a clean, modern interface ideal for portfolios, client presentations, or startup landing pages.
+
+---Main website https://www.ecoharvest.farm/
+
+## 📌 Project Overview
+
+The website includes:
+
+- An engaging homepage with project highlights  
+- About section detailing the mission and technology  
+- Features section to outline key benefits  
+- Visual gallery for agriculture or product images  
+- Contact form (front-end only)  
+- Fully responsive design optimized for all devices  
+
+---
+
+## 🛠️ Technologies Used
+
+| Technology     | Description                            |
+|----------------|----------------------------------------|
+| HTML5          | Markup for page structure              |
+| CSS3           | Styling and responsive layout design   |
+| Google Fonts   | Custom font for branding and style     |
+| Font Awesome   | Icons for features, contact, and social|
